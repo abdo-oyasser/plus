@@ -1,0 +1,25 @@
+.true-ask {
+    color: green ;
+}
+
+.false-ask {
+    color: #999 !important;
+}
+
+.mazad {
+    background-color: white;
+    padding: 30px;
+    border-radius: 50px;
+}
+
+.ask-con {
+    background-color: green;
+    min-height: 100px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    border-radius: 20px;
+}
+.ask-con img{
+    cursor: pointer;
+}

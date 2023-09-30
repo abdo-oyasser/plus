@@ -1,0 +1,22 @@
+.scroll-zero {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    width: 70px;
+    height: 70px;
+    cursor: pointer;
+    background-color: #fff;
+    border-radius: 50%;
+}
+
+.scroll-zero:hover {
+    background-color: #cdd7cb;
+}
+
+.scroll-zero img {
+    width: 30px;
+    height: 50px;
+}

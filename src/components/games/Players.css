@@ -1,0 +1,79 @@
+.player-card {
+    position: relative;
+    background-color: white;
+    padding: 0;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 14%;
+}
+
+.player-card .back {
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 9;
+}
+
+.player-card .main-card {
+    height: 150px;
+    position: relative;
+}
+
+.player-card .main-card img {
+    height: 60%;
+    width: 100%;
+}
+
+.player-card .main-card h2 {
+    height: 40%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: green !important;
+    font-weight: 800;
+    font-size: 24px;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+@media (max-width:992px) {
+    .player-card .main-card h2 {
+        font-size: medium;
+    }
+
+    .player-card {
+        width: 22%;
+    }
+}
+
+@media (max-width:767px) {
+    .player-card {
+        width: 30%;
+    }
+}
+
+@media (max-width:450px) {
+    .player-card {
+        width: 45%;
+    }
+}
+
+.reset {
+    cursor: pointer;
+}
+
+.lay::before {
+    content: "";
+    z-index: 2;
+    background-color: black;
+    opacity: 0.5;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}

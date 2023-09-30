@@ -1,0 +1,168 @@
+.row {
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.game-card {
+    width: 23% !important;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    height: 400px;
+    border: none;
+}
+.link-game a{
+    font-weight: 700;
+    font-size: 24px;
+}
+
+@media (max-width:992px) {
+
+    .game-card {
+        width: 30% !important;
+    }
+}
+
+@media (max-width:767px) {
+
+    .game-card {
+        width: 46% !important;
+    }
+}
+
+@media (max-width:666px) {
+
+    .game-card {
+        width: 80% !important;
+    }
+
+    .row {
+        justify-content: center;
+    }
+}
+
+@media (max-width:450px) {
+
+    .game-card {
+        width: 90% !important;
+    }
+
+    .row {
+        justify-content: center;
+    }
+}
+
+.game-card img {
+    width: 100%;
+    height: 50%;
+}
+
+.game-card .card-body h5 {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: green !important;
+    font-weight: 700;
+    font-size: 32px;
+    text-align: center;
+}
+
+.game-card .link-game a {
+    text-align: center;
+    background-color: green !important;
+    color: white;
+    width: 80%;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.game-card .link-game {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.game-card a.icon-info-game {
+    position: absolute;
+    color: black !important;
+    left: 5%;
+    top: 55%;
+    background-color: green !important;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    text-decoration: none;
+}
+
+.game-card .vss {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+    
+}
+
+
+.game-card .vs {
+    width: 40px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    font-weight: 600;
+    text-decoration: none;
+    color: white !important;
+}
+
+.game-card .onevone {
+    background-color: green;
+}
+
+.game-card .twovtwo {
+    background-color: blueviolet;
+}
+
+.vs-div {
+    width: 100%;
+    text-align: center;
+    margin: 10px 0 30px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.vs-div .vs-h1 {
+    color: green !important;
+    background-color: white;
+    min-width: 200px;
+    font-weight: 900;
+    padding: 20px;
+    border-radius: 40px;
+}
+
+.explain-game .explain {
+    background-color: #eee;
+    padding: 40px;
+    border-radius: 40px;
+    margin-bottom: 100px;
+}
+
+.explain-game .explain ul li {
+    font-size: 24px;
+    line-height: 2;
+    font-weight: 700;
+    color: green !important;
+}

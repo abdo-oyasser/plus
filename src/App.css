@@ -1,0 +1,14 @@
+body {
+    background-color: green;
+    direction: rtl;
+    min-height: 100vh;
+    background: linear-gradient(135deg, darkgreen, green, greenyellow);
+}
+
+* {
+    font-family: 'Cairo', sans-serif !important;
+}
+
+i {
+    font-family: "Font Awesome 6 Free" !important;
+}
